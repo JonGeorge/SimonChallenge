@@ -1,0 +1,92 @@
+body {
+  background-color: #191226;
+  color: #eeeeee;
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  padding-top: 100px;
+  width: 70%;
+  margin: 0;
+}
+
+.title-lip {
+  background-color: #0c0830;
+  margin: 0 auto;
+  padding: 75px 0 30px;
+  width: 300px;
+  border-radius: 0 0 11% 11%;
+}
+
+.round {
+  line-height: 2.5rem;
+}
+
+.game-button {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  border-collapse: collapse;
+  border: 2px solid black;
+  border-radius: 20%;
+  display: inline-block;
+}
+
+.row {
+  display: block;
+  text-align: center;
+}
+
+.green {
+  background-color: #02a694;
+}
+
+.purple {
+  background-color: #630460;
+}
+
+.pink {
+  background-color: #f2355b;
+}
+
+.yellow {
+  background-color: #efb704;
+}
+
+.play-button {
+  background: none;
+  color: inherit;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 70px;
+  margin: 50px auto;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 983px) {
+  .game-button {
+    height: 125px;
+    width: 125px;
+  }
+
+  .play-button {
+    font-size: 1rem;
+    padding: 5px 60px;
+  }
+}
