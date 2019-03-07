@@ -19,7 +19,10 @@ function playGame() {
   plays = [];
   resetCount();
   resetRound();
-  playRound();
+
+  setTimeout(function() {
+    playRound();
+  }, 500);
 }
 
 
