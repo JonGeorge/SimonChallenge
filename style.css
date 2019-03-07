@@ -18,8 +18,8 @@ body {
 
 .title {
   padding-top: 100px;
-  width: 70%;
-  margin: 0;
+  width: 365px;
+  margin: 0 10px;
 }
 
 .title-lip {
@@ -42,6 +42,7 @@ body {
   border: 2px solid black;
   border-radius: 20%;
   display: inline-block;
+  cursor: pointer;
 }
 
 .row {
@@ -77,6 +78,14 @@ body {
   outline: none;
   font-weight: 700;
   font-size: 1.5rem;
+}
+
+.flash {
+  background-color: #000;
+}
+
+.flash-red {
+  background-color: red;
 }
 
 @media (max-width: 983px) {
